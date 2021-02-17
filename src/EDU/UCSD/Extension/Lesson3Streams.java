@@ -109,7 +109,7 @@ public class Lesson3Streams {
     }
 
     public void doubleDown() throws IOException {
-        inputData = inputData + new String(Files.readAllBytes(Paths.get(filename)));
+        inputData = new StringBuilder().append(inputData).append(inputData).toString();
     }
 
     public static void main(String[] arguments) throws IOException {

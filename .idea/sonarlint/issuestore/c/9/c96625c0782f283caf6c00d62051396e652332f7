@@ -1,12 +1,8 @@
 
 †
-java:S1130."iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(Œ£ñ8õö‹¼ú.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
-L
-java:S1481V"*Remove this unused "count" local variable.(åùÁÇøÿÿÿÿ8ƒÍäÆú.
-[
-java:S1854‰"=Remove this useless assignment to local variable "startTime".(§µ¤«8ÎÆÈú.
-d
-java:S1854e"BRemove this useless assignment to local variable "singleThreaded".(·Â…üÿÿÿÿ8ÎÆÈú.
+java:S1130N"iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(Œ£ñ8õö‹¼ú.
 ^
-java:S1854‹";Remove this useless assignment to local variable "endTime".(†›¢Êüÿÿÿÿ8ÎÆÈú.
+java:S1854«";Remove this useless assignment to local variable "endTime".(†›¢Êüÿÿÿÿ8ÎÆÈú.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
+[
+java:S1854©"=Remove this useless assignment to local variable "startTime".(§µ¤«8ÎÆÈú.

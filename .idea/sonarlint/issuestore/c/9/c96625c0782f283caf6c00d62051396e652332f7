@@ -1,8 +1,8 @@
 
-†
-java:S1130N"iRemove the declaration of thrown exception 'java.lang.NullPointerException' which is a runtime exception.(Œ£ñ8õö‹¼ú.
+
+java:S1130o"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Çª‡úıÿÿÿÿ8ªîÃîú.
+[
+java:S1854©"=Remove this useless assignment to local variable "startTime".(§µ¤«8ÎÆÈú.
 ^
 java:S1854«";Remove this useless assignment to local variable "endTime".(†›¢Êüÿÿÿÿ8ÎÆÈú.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Àı§„
-[
-java:S1854©"=Remove this useless assignment to local variable "startTime".(§µ¤«8ÎÆÈú.

@@ -11,15 +11,14 @@ to  the  constructor specifying the  name of  the input file. Optionally, the
 constructor  will  accept a  regular expression as  the second argument. When
 specified,  the  second argument will be  used instead of the default pattern
 (see previous paragraph).
-*
 
+The Lesson3Streams class uses Java's Streams and stream pipelines to search a
 text file and return the number of times a sequence of characters matches the
 regular  expression pattern.  Lesson3Streams  provides this  function in  two
 methods.  One method utilizes a sequential stream, while the other utilizes a
 parallel   stream.   A  parallel   stream  can  utilize  the  multi-threading
 capabilities  provided  by  computers containing  multiple  processor  cores;
 typically resulting in enhanced performance.
-*
 
 from  which  the data  will be read.  When the argument  is omitted, an error
 message  and a  stack trace will be  displayed on the console and the program
@@ -30,3 +29,4 @@ sequential  stream,  and again using a  parallel stream. Next, it doubles the
 size  of the  data and repeats the two steps. Lesson3Streams will repeat this
 process  until the parallel stream runs faster than the sequential stream, or
 until it has completed ten iterations.
+

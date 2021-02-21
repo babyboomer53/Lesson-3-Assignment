@@ -20,6 +20,7 @@ parallel   stream.   A  parallel   stream  can  utilize  the  multi-threading
 capabilities  provided  by  computers containing  multiple  processor  cores;
 typically resulting in enhanced performance.
 
+This  program expects  a single argument containing the name of the text file
 from  which  the data  will be read.  When the argument  is omitted, an error
 message  and a  stack trace will be  displayed on the console and the program
 exits immediately.
@@ -29,4 +30,3 @@ sequential  stream,  and again using a  parallel stream. Next, it doubles the
 size  of the  data and repeats the two steps. Lesson3Streams will repeat this
 process  until the parallel stream runs faster than the sequential stream, or
 until it has completed ten iterations.
-
